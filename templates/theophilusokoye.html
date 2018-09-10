@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Theophilus Okoye</title>
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="../static/css/materialize.css">
+    <link rel="stylesheet" href="../static/css/iconfont/material-icons.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <style>
+        .myprofile {
+            display: grid;
+            grid-template-columns: 30% 20% 50%;
+        }
+
+        .mylinks {
+            display: grid;
+            grid-template-columns: 5% 50% 55%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidenav sidenav-fixed" id="slide-out">
+        <ul id="slide-out" class="sidenav sidenav-fixed grey lighten-3 show-on-large">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img src="../static/img/background3.jpeg">
+                    </div>
+                    <a>
+                        <img class="circle hoverable" src="../static/img/avatar (2).jpg"></img>
+                    </a>
+                    <a>
+                        <span class="white-text name flow-text">
+                            <h5>Theophilus Okoye</h5>
+                        </span>
+                    </a>
+                    <a>
+                        <span class="white-text email flow-text">
+                            <h6>theophilusokoye6@gmail.com</h6>
+                        </span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="#home">
+                    <i class="material-icons medium">
+                        home
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="#profile">
+                    <i class="material-icons small" id="prof">person</i>
+                    <label for="prof">Profile</label>
+                </a>
+            </li>
+            <li>
+                <a href="#experience">
+                    <i class="material-icons small" id="exp">work</i>
+                    <label for="exp">Experience</label>
+                </a>
+            </li>
+            <li>
+                <a href="#technologies">
+                    <i class="material-icons small" id="build">build</i>
+                    <label for="build">Technologies</label>
+                </a>
+            </li>
+            <li>
+                <a href="#education">
+                    <i class="material-icons small" id="edu">book</i>
+                    <label for="edu">Education</label>
+                </a>
+            </li>
+            <li>
+                <a href="#connect">
+                    <i class="material-icons small" id="share">share</i>
+                    <label for="share">Connect</label>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!--HOME-->
+    <div class="blue-grey lighten-4 box scrollspy" id="home">
+        <div class="row">
+            <div class="col l2"></div>
+            <div class="col l2"></div>
+            <div class="col l2"></div>
+            <div class="col l4">
+                <h4 class="black-text flow-text">
+                    <strong> Theophilus Okoye
+                    </strong>
+                </h4>
+            </div>
+            <div class="col l2"></div>
+        </div>
+        <div class="row black-text">
+            <div class="col l2"></div>
+            <div class="col l2"></div>
+            <div class="col l1"></div>
+            <div class="col l7">
+                <h6 id="typed"></h6>
+            </div>
+        </div>
+    </div>
+    <!--PROFILE-->
+
+    <div class="indigo accent-4 box scrollspy" id="profile">
+        <div class="myprofile">
+            <div></div>
+            <div class="flow-text">
+                <ul>
+                    <li>
+                        Name
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        Birthday
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        Titles
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <li>
+                        Locations
+                    </li>
+                </ul>
+            </div>
+            <div class="flow-text">
+                <ul>
+                    <li id="name">
+                        <b>|</b> Theophilus Chidiebere Okoye</li>
+                    <br>
+                    <br>
+                    <li id="birthday">
+                        <b>|</b> 16-08-1998</li>
+                    <br>
+                    <br>
+                    <li id="titles">
+                        <ul>
+                            <li>
+                                <b>|</b> Fullstack Developer</li>
+                            <li>
+                                <b>|</b> UI Designer</li>
+                            <li>
+                                <b>|</b> Native Android Developer</li>
+                            <li>
+                                <b>|</b> Cross Platform Developer</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <br>
+                    <li id="location">
+                        <ul>
+                            <li>
+                                <b>|</b> 47 Castens Avenue, Belvedere, Harare</li>
+                            <li>
+                                <b>|</b> Flat 1 53 Mag Way, CBD, Chinhoyi</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--EXPERIENCE-->
+    <div class="teal lighten-4 scrollspy" id="experience">
+        <div class="row">
+            <div class="col l3"></div>
+            <div class="col l5">
+                <div class="card card-flat medium transparent">
+                    <span class="card-title flow-text">
+                        <h5> Online Job Application |
+                            <small>Contract | Backend-Engineer</small>
+                        </h5>
+                    </span>
+                    <b> 06/18 - 07/18</b>
+                    <p class="card-content">
+                        <button class="btn btn-medium btn-flat">library</button>
+                        <button class="btn btn-medium btn-flat">open src</button>
+                        <br>
+                        <ul>
+                            <li>
+                                <i class="material-icons">chevron_right</i> Added email functionality through SMTP library
+                            </li>
+                            <li>
+                                <i class="material-icons">chevron_right</i> Secured the application via enhanced encryption
+                            </li>
+                            <li>
+                                <i class="material-icons">chevron_right</i> Established data access between front-end and storage
+                            </li>
+                            <li>
+                                <i class="material-icons">chevron_right</i> Worked on back-end logic
+                            </li>
+                        </ul>
+                    </p>
+                    <p class="card-action">
+                        <a href="">Python</a>
+                        <a href="">Flask</a>
+                        <a href="">Mongo</a>
+                        <a href="">JavaScript</a>
+                        <a href="">CSS</a>
+                        <a href="">HTML</a>
+                    </p>
+                </div>
+                <div class="col l4"></div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+
+    <!--TECHNOLOGIES-->
+
+    <div class="blue-grey lighten-5 scrollspy" id="technologies">
+        <div class="row" id="languages">
+            <div class="col l3"></div>
+            <div class="col l5">
+                <h4>Languages</h4>
+                <a class="btn btn-floating orange btn-large">
+                    <small>JS</small>
+                </a>
+                <a class="btn btn-floating orange btn-large">
+                    <small>HTML-5</small>
+                </a>
+                <a class="btn btn-floating orange btn-large">
+                    <small>CSS</small>
+                </a>
+                <h4>Frameworks</h4>
+                <a class="btn btn-floating red btn-large">
+                    <small>Flask</small>
+                </a>
+                <a class="btn btn-floating red btn-large">
+                    <small>Materialize</small>
+                </a>
+                <a class="btn btn-floating red btn-large">
+                    <small>ASP.NET</small>
+                </a>
+                <a class="btn btn-floating red btn-large">
+                    <small>android</small>
+                </a>
+                <h4>Tools</h4>
+                <a class="btn btn-floating blue btn-large">
+                    <small>VS</small>
+                </a>
+                <a class="btn btn-floating blue btn-large">
+                    <small>VS Code</small>
+                </a>
+                <a class="btn btn-floating blue btn-large">
+                    <small>IDEA</small>
+                </a>
+                <a class="btn btn-floating blue btn-large">
+                    <small>Xamarin</small>
+                </a>
+
+                <h4>Data</h4>
+                <a class="btn btn-floating teal btn-large">
+                    <small>Mongo</small>
+                </a>
+                <a class="btn btn-floating teal btn-large">
+                    <small>SQL</small>
+                </a>
+                <h4>Read-Only Languages</h4>
+                <a class="btn btn-floating purple btn-large">
+                    <small>Python</small>
+                </a>
+                <a class="btn btn-floating purple btn-large">
+                    <small>Java</small>
+                </a>
+                <a class="btn btn-floating purple btn-large">
+                    <small>Kotlin</small>
+                </a>
+                <a class="btn btn-floating purple btn-large">
+                    <small>C#</small>
+                </a>
+                <a class="btn btn-floating purple btn-large">
+                    <small>C++</small>
+                </a>
+                <a class="btn btn-floating purple btn-large">
+                    <small>.NET</small>
+                </a>
+            </div>
+            <div class="col l4"></div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <!--EDUCATION-->
+    <div class="teal lighten-1 scrollspy" id="education">
+        <div class="row">
+            <div class="col l3"></div>
+            <div class="col l5">
+                <div class="card card-flat small transparent">
+                    <span class="card-title flow-text">
+                        <h4> Harare Institute of Technology
+                        </h4>
+                    </span>
+                    <b>2017 - Today</b>
+                    <p class="card-content">
+                        <ul>
+                            <li>
+                                <i class="material-icons">chevron_right</i> Studying Software Engineering
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col l4"></div>
+        </div>
+    </div>
+
+
+    <!--CONNECT-->
+
+    <div class="row">
+        <div class="mylinks scrollspy" id="connect">
+            <div></div>
+            <div>
+                <ul>
+                    <li class="zoom zoom-hover">
+                        <a>
+                            <img src="../static/img/GitHub_48px.png" class="circle"> @github
+                        </a>
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <li class="zoom zoom-hover">
+                        <a>
+                            <img src="../static/img/LinkedIn_48px.png" class="circle"> @linkedin</a>
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <li class="zoom zoom-hover">
+                        <a>
+                            <img src="../static/img/Instagram_48px.png" class="circle"> @instagram</a>
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <li class="zoom zoom-hover">
+                        <a>
+                            <img src="../static/img/Facebook_48px.png" class="circle"> @facebook</a>
+                    </li>
+                    <br>
+                    <br>
+                    <br>
+                    <li class="zoom zoom-hover">
+                        <a>
+                            <img src="../static/img/Google Plus_48px.png" class="circle"> @google</a>
+                    </li>
+                    <br>
+                    <br>
+                </ul>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <!--SCRIPTS-->
+    <script src="../static/js/jquery-2.1.1.min.js"></script>
+    <script src="../static/js/typed.js"></script>
+    <script src="../static/js/materialize.js"></script>
+    <script>
+        M.AutoInit();
+    </script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ["Fullstack web & Native mobile developer"],
+            typespeed: 500,
+            backspaceSpeed: 500,
+            startDelay: 3000,
+            loop: true,
+            showCursor: false
+        });
+    </script>
+</body>
+
+</html>
